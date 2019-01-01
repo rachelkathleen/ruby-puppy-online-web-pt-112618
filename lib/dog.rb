@@ -8,12 +8,10 @@ class Dog
   end
 
   def self.all
-    @@all.map {|d| d.name}
+    puts @@all.map {|d| d.name}
   end
 
   def self.clear_all
     @@all.clear
-  end
-
-
+  end 
 end
